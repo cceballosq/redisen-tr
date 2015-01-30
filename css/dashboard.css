@@ -1,0 +1,139 @@
+#counter-bar { 
+	margin-top:10px; 
+	color: #20353c;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.number-counter-bar {
+	font-size:34px;
+}
+
+.number-counter-bar > img {
+	margin-top: -8px;
+}
+
+.money-counter-bar {
+	font-size: 16px;
+	margin-top: 16px;
+	padding-bottom: 10px;
+}
+
+.money-counter-bar > img {
+	margin-top: -5px;
+}
+
+.btn-add-propiedad:hover {
+	text-decoration:none;
+}
+
+.btn-add-propiedad > span:hover {
+	background-color:#F38A06;
+}
+ 
+#counter-bar > .col-md-2 {
+	border:1px solid #ccc;
+}
+
+#dsb-renta-adeudo, #dsb-contratos-ingresos, #dsb-recibos-pagos {
+	margin-top:40px;
+}
+#dsb-utils { margin-top:20px; }
+#dsb-utils > div > a { float:right; margin-left:25px; cursor:pointer; }
+.section-header { color:#20353c; font-size:24px; font-weight:bold; }
+.section-header > span { margin-left:10px; }
+.section-header > .info-icon { margin-top:7px; cursor:pointer; }
+
+.section-header-2 { font-size:22px; }
+.table-striped { margin-bottom:0px; }
+
+.table-goto-link { padding:10px; margin-top:20px; }
+
+#dsb-table-adeudos { 
+	max-height: 293px;
+	overflow-y: auto;
+	min-height: 293px;
+}
+
+#dsb-table-contratos {
+	max-height: 222px;
+	overflow-y: auto;
+	min-height: 222px;
+}
+
+#dsb-table-ingresos {
+	max-height: 213px;
+	overflow-y: auto;
+	min-height: 213px;
+}
+
+#dsb-table-recibos-pagos {
+	max-height: 265px;
+	overflow-y: auto;
+	font-size:13px;
+}
+
+.collapse-ingresos { font-size:12px; }
+
+thead > tr > td { color:#fff; background-color:#20353c; }
+
+.select-control-ds {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.ver-select { 
+	font-size: 20px;
+	margin: 3px -15px 0 0;
+}
+
+.a-border {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3px;
+	color: #969696;
+	text-decoration: none;
+	margin-right: 10px;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+.a-border:hover { text-decoration:none; box-shadow: 2px 2px 5px #888888; }
+
+.a-border-none {
+	background-color: #1db2a4;
+	border-radius: 5px;
+	padding: 4px;
+	color: #fff;
+	text-decoration: none;
+	margin-right: 10px;
+	box-shadow: 1px 1px 5px #888888;
+}
+
+.a-border-none:hover { text-decoration:none; box-shadow: 2px 2px 5px #888888; }
+
+.table-regular { margin-bottom:0px; }
+.table-regular > tbody > tr > td { border:1px solid #f8f8f8; }
+.table-regular > tbody > tr > td > a { color: #171717; }
+.table-regular > thead > tr > td { border:1px solid #fff; }
+.tr-last { background-color:#ededed	; color:#c6c6c6; }
+.tr-last > td > a { color:#c6c6c6 !important; }
+
+.a-edit {
+	background-color: #fff;
+	padding: 2px 2px 4px 3px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 2px #888;
+}
+
+.tooltip-inner {
+	color:#171717;
+	border:2px solid #1DB2A4;
+	background-color:#fff;
+}
+.tooltip.bottom .tooltip-arrow {
+	border-bottom-color: #1DB2A4;
+}
+
+.span-10 { margin-top: 15px; }
+.span-10 > span { margin-left:52px; }

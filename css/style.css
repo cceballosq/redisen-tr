@@ -413,10 +413,14 @@ input[readonly] {
   cursor: text !important;
 }
 
-/*Inquiinos*/
+/*Inquilinos*/
 .section-inquilinos { border:1px solid #b3b3b3; }
 .title-section-inquilino { min-height:85px; color:#20353c; font-size:17px; padding:30px 0 30px 10px; }
 .border-bottom { border-bottom:1px solid #ccc; }
 .ui-tooltip {
     white-space: pre-line;
 }
+.table-regular-2 { margin-bottom:0px; }
+.table-regular-2 > tbody > tr > td { border:none;}
+.table-regular-2 > tbody > tr > td > a { color: #171717; }
+.table-regular-2 > thead > tr > td { border:none; }

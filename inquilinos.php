@@ -91,19 +91,7 @@
 			</div>
 		</div>
 		
-		<div class="col-md-12 collapse" id="collapse-cuenta-propiedad" style="padding:5px 20px 5px 20px;">
-			
-			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
-				<div class="col-md-12" style="padding:initial;">
-					<div class="col-md-2 ">
-						<span class="text-gray">Tipo de persona:</span>
-					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">Casa de monterrey en romero de terreros</span>
-					</div>
-				</div>
-			</div>
-			
+		<div class="col-md-12 collapse" id="collapse-cuenta-propiedad" style="padding:5px 20px 5px 20px;">	
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
 				<div class="col-md-12" style="padding:initial;">
 					<div class="col-md-2 ">
@@ -114,7 +102,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2 ">
 						<span class="text-gray">Contrato 2:</span>
 					</div>
@@ -135,7 +123,7 @@
 			</div>
 			
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2 ">
 						<span class="text-gray">Tel. Casa:</span>
 					</div>
@@ -144,7 +132,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Celular:</span>
 					</div>
@@ -153,16 +141,16 @@
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Tel Oficina:</span>
 					</div>
-					<div class="col-md-10">
+					<div class="col-md-10" style="margin-left:-50px;">
 						<span class="text-black"></span>
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Correo 1:</span>
 					</div>
@@ -171,7 +159,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Correo 2:</span>
 					</div>
@@ -183,7 +171,7 @@
 			<div class="col-md-1"></div>
 			
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2 ">
 						<span class="text-gray">RFC:</span>
 					</div>
@@ -192,7 +180,7 @@
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Dirección:</span>
 					</div>
@@ -209,7 +197,7 @@
 			<div class="col-md-1"></div>
 			
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2 ">
 						<span class="text-gray">Comentarios:</span>
 					</div>
@@ -245,6 +233,7 @@
 						<a href="" style="margin-left:15px;"><img src="css/images/eliminar.png" alt="Eliminar"/></a>
 					</div>
 				</div>
+				
 				<div class="col-md-12">
 					<div class="col-md-2"></div>
 					<div class="col-md-4 title-datos" style="margin-left:-50px;">
@@ -254,6 +243,34 @@
 						<a href=""><img src="css/images/vista-previa.png" alt="Vista previa"/></a>
 						<a href="" style="margin-left:15px;"><img src="css/images/descargar.png" alt="Descargar"/></a>
 						<a href="" style="margin-left:15px;"><img src="css/images/eliminar.png" alt="Eliminar"/></a>
+					</div>
+				</div>
+				
+				<div class="col-md-12" style="padding:initial; padding-top:30px;">
+					<div class="col-md-8" style="padding:initial;">
+						<div class="table-responsive">
+							<table class="table table-regular-2">
+								<tbody>
+									<tr>
+										<td class="text-gray">
+											Inquilino de <a href="" title="" class="color-link underline">Nombre de la propiedad de 01/02/2013 a 01/02/2014</a>
+											<a href="" title="Borrar historial" class="pointer close-x pull-right">x</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="text-gray">
+											Inquilino de <a href="" title="" class="color-link underline">Nombre de la propiedad de 01/02/2013 a 01/02/2014</a>
+											<a href="" title="Borrar historial" class="pointer close-x pull-right">x</a>
+										</td>
+									</tr>
+									<tr class="text-gray">
+										<td>
+											Inquilino de <a href="" title="" class="color-link underline">Nombre de la propiedad de 01/02/2013 a 01/02/2014</a>
+											<a href="" title="Borrar historial" class="pointer close-x pull-right">x</a>
+										</td>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>

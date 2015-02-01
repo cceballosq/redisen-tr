@@ -94,20 +94,12 @@
 		<div class="col-md-12 collapse" id="collapse-cuenta-propiedad" style="padding:5px 20px 5px 20px;">
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
 				<div class="col-md-12" style="padding:initial;">
-					<div class="col-md-2 ">
-						<span class="text-gray">Contrato 1:</span>
+					<div class="col-md-2">
+						<span class="text-gray">Tipo de persona:</span>
 					</div>
 					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">Casa de monterrey en romero de terreros</span>
-					</div>
-				</div>
-				
-				<div class="col-md-12" style="padding:initial;">
-					<div class="col-md-2 ">
-						<span class="text-gray">Contrato 2:</span>
-					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">Casa en Colima, Colima</span>
+						<input type="radio" name="edit-tipo-persona" value="fisica" checked>&nbsp;&nbsp;Persona Física
+						<input style="margin-left:20px;" type="radio" name="edit-tipo-persona" value="moral">&nbsp;&nbsp;Persona Moral
 					</div>
 				</div>
 			</div>
@@ -117,7 +109,7 @@
 					<img src="css/images/trash.png" alt="Borrar Propiedad"/>
 				</a>
 				
-				<a href="" class="a-edit-propiedad pull-right">
+				<a href="" class="a-edit-propiedad edit-active pull-right">
 					<img src="css/images/editar.png" alt="Editar Propiedad"/>
 				</a>
 			</div>
@@ -125,72 +117,122 @@
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
 				<div class="col-md-12" style="padding:initial;">
 					<div class="col-md-2 ">
-						<span class="text-gray">Tel. Casa:</span>
+						<span class="text-gray">Contrato 1:</span>
 					</div>
 					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">565589752</span>
+						<span class="text-black">Casa de monterrey en romero de terreros</span>
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
+					<div class="col-md-2 ">
+						<span class="text-gray">Contrato 2:</span>
+					</div>
+					<div class="col-md-10" style="margin-left:-50px;">
+						<span class="text-black">Casa en Colima, Colima</span>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
+					<div class="col-md-2 ">
+						<span class="text-gray">Tel. Casa:</span>
+					</div>
+					<div class="col-md-4" style="margin-left:-50px;">
+						<input type="text" name="edit-tel-casa" id="edit-tel-casa" class="form-control">
+					</div>
+				</div>
+				
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Celular:</span>
 					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">0443121138379</span>
+					<div class="col-md-4" style="margin-left:-50px;">
+						<input type="text" name="edit-celular" id="edit-celular" class="form-control">
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Tel Oficina:</span>
 					</div>
-					<div class="col-md-10">
-						<span class="text-black"></span>
+					<div class="col-md-4" style="margin-left:-50px;">
+						<input type="text" name="edit-tel-oficina" id="edit-tel-oficina" class="form-control">
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Correo 1:</span>
 					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">caarloshugo@gmail.com</span>
+					<div class="col-md-5" style="margin-left:-50px;">
+						<input type="text" name="edit-correo-1" id="edit-correo-1" class="form-control">
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Correo 2:</span>
 					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black"></span>
+					<div class="col-md-5" style="margin-left:-50px;">
+						<input type="text" name="edit-correo-2" id="edit-correo-2" class="form-control">
 					</div>
 				</div>
 			</div>
 			<div class="col-md-1"></div>
 			
 			<div class="col-md-11" style="border-bottom:1px solid #ccc; padding:20px 0 20px 0;">
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2 ">
 						<span class="text-gray">RFC:</span>
 					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">GOCC880405789</span>
+					<div class="col-md-6" style="margin-left:-50px;">
+						<input type="text" name="edit-rfc" id="edit-rfc" class="form-control">
 					</div>
 				</div>
 				
-				<div class="col-md-12" style="padding:initial;">
+				<div class="col-md-12" style="padding:initial; padding-top:10px;">
 					<div class="col-md-2">
 						<span class="text-gray">Dirección:</span>
 					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">
-							Paseo del Acueducto, #6519<br/>
-							Col. Ciudad Satélite, C.P. 64960<br/>
-							Monterrey, Nuevo León,<br/>
-							México
-						</span>
+					<div class="col-md-8" style="padding:initial; margin-left:-50px;">
+						<div class="col-md-4">
+							<input type="text" name="edit-calle" id="edit-calle" class="form-control" placeholder="Nombre de la calle">
+						</div>
+						<div class="col-md-2">
+							<input type="text" name="edit-num-ext" id="edit-num-ext" class="form-control" placeholder="Núm. Ext.">
+						</div>
+						<div class="col-md-2">
+							<input type="text" name="edit-num-int" id="edit-num-int" class="form-control" placeholder="Núm. Int.">
+						</div>
+					</div>
+					
+					<div class="col-md-12" style="padding:initial; padding-top:10px;">
+						<div class="col-md-2"></div>			
+						<div class="col-md-6" style="padding:initial; margin-left:-50px;">
+							<div class="col-md-8">
+								<input type="text" name="edit-colonia" id="edit-colonia" class="form-control" placeholder="Nombre de la colonia">
+							</div>
+							<div class="col-md-4">
+								<input type="text" name="edit-cp" id="edit-cp" class="form-control" placeholder="C.P.">
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-12" style="padding:initial; padding-top:10px;">
+						<div class="col-md-2"></div>			
+						<div class="col-md-6" style="padding:initial; margin-left:-50px;">
+							<div class="col-md-4">
+								<input type="text" name="edit-ciudad" id="edit-ciudad" class="form-control" placeholder="Ciudad">
+							</div>
+							<div class="col-md-4">
+								<input type="text" name="edit-estado" id="edit-estado" class="form-control" placeholder="Estado">
+							</div>
+							<div class="col-md-4">
+								<input type="text" name="edit-pais" id="edit-pais" class="form-control" placeholder="País">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -201,8 +243,8 @@
 					<div class="col-md-2 ">
 						<span class="text-gray">Comentarios:</span>
 					</div>
-					<div class="col-md-10" style="margin-left:-50px;">
-						<span class="text-black">Comentarios sobre el inquilino.</span>
+					<div class="col-md-6" style="margin-left:-50px;">
+						<textarea id="edit-comentarios" name="edit-comentarios" class="form-control"></textarea>
 					</div>
 				</div>
 				
@@ -242,6 +284,34 @@
 						<a href=""><img src="css/images/vista-previa.png" alt="Vista previa"/></a>
 						<a href="" style="margin-left:15px;"><img src="css/images/descargar.png" alt="Descargar"/></a>
 						<a href="" style="margin-left:15px;"><img src="css/images/eliminar.png" alt="Eliminar"/></a>
+					</div>
+				</div>
+				
+				<div class="col-md-12" style="padding:initial; padding-top:30px;">
+					<div class="col-md-8" style="padding:initial;">
+						<div class="table-responsive">
+							<table class="table table-regular-2">
+								<tbody>
+									<tr>
+										<td class="text-gray">
+											Inquilino de <a href="" title="" class="color-link underline">Nombre de la propiedad de 01/02/2013 a 01/02/2014</a>
+											<a href="" title="Borrar historial" class="pointer close-x pull-right">x</a>
+										</td>
+									</tr>
+									<tr>
+										<td class="text-gray">
+											Inquilino de <a href="" title="" class="color-link underline">Nombre de la propiedad de 01/02/2013 a 01/02/2014</a>
+											<a href="" title="Borrar historial" class="pointer close-x pull-right">x</a>
+										</td>
+									</tr>
+									<tr class="text-gray">
+										<td>
+											Inquilino de <a href="" title="" class="color-link underline">Nombre de la propiedad de 01/02/2013 a 01/02/2014</a>
+											<a href="" title="Borrar historial" class="pointer close-x pull-right">x</a>
+										</td>
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>

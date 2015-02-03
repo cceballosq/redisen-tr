@@ -9,11 +9,11 @@
 		<link rel="icon" href="favicon.ico">
 
 		<title>Dashboard - TengoRentas.com</title>
-
+				
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-
 		<!-- Optional theme -->
+		
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
 
 		<!-- Custom styles for this template -->
@@ -25,6 +25,39 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
+		<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<style type="text/css">
+			@media screen and (min-width: 768px) {	
+				#addinquilino .modal-dialog  {width:920px;}
+			}
+			.btn-file {
+			    position: relative;
+			    overflow: hidden;			   
+			}
+			.btn-file input[type=file] {
+			    position: absolute;
+			    top: 0;
+			    right: 0;
+			    min-width: 100%;
+			    min-height: 100%;
+			    font-size: 100px;
+			    text-align: right;
+			    filter: alpha(opacity=0);
+			    opacity: 0;
+			    outline: none;
+			    background: white;
+			    cursor: inherit;
+			    display: block;		    
+
+			}
+			.superradiusin {
+				border-radius: 8px;
+				-moz-border-radius: 8px;
+				-webkit-border-radius: 8px;
+			}	
+
+		</style>
 	</head>
 	<body role="document" class="OpenSans">
 		<!-- header -->
